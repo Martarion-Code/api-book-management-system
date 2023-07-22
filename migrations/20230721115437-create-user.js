@@ -30,6 +30,10 @@ module.exports = {
         allowNull: true,
         type: Sequelize.INTEGER
       },
+      refreshToken: {
+        allowNull:true,
+        type: Sequelize.STRING
+      },
     });
   },
   async down(queryInterface, Sequelize) {

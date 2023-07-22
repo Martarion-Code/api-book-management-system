@@ -8,7 +8,8 @@ const {logger} = require('./middleware/logEvents');
 const errorHandler = require('./middleware/errorHandler');
 const cookieParser = require('cookie-parser');
 // const logger = require('morgan');
-const db = require('./models')
+const db = require('./models');
+const { verifyJWT } = require('./middleware/auth');
 
 const PORT = process.env.PORT || 3500;
 
@@ -27,6 +28,7 @@ app.use(express.json());
 
 app.use('/v1/login', require('./v1/routes/authRoutes'));
 app.use('/v1/register', require('./v1/routes/registerRoutes'));
+app.use(verifyJWT);
 app.use('/v1/books', require('./v1/routes/bookRoutes'))
 app.all('*', (req, res) =>{
     res.status(404);
