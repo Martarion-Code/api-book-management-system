@@ -4,7 +4,9 @@ const Genre = require("../models").Genre;
 
 module.exports = {
   async getAllBooks() {
-    const allBooks = await Book.findAll();
+    const allBooks = await Book.findAll({
+      limit:20,include: [], raw:true});
+    // console.log(allBooks);
     return allBooks; 
   },
   async  getBooksByGenre(genres){

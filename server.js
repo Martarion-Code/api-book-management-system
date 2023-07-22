@@ -27,7 +27,7 @@ app.use(express.json());
 
 app.use('/v1/login', require('./v1/routes/authRoutes'));
 app.use('/v1/register', require('./v1/routes/registerRoutes'));
-// app.use('/v1/books', require('./v1/routes/bookRoutes'))
+app.use('/v1/books', require('./v1/routes/bookRoutes'))
 app.all('*', (req, res) =>{
     res.status(404);
     if(req.accepts('html')){

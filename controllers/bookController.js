@@ -4,8 +4,8 @@ const bookService = require('../services/bookService');
 
 
 module.exports = {
-    getAllBooks(req, res){
-        const allBooks = bookService.getAllBooks();
+    async getAllBooks(req, res){
+        const allBooks = await bookService.getAllBooks();
         return res.send({status: 200, data: allBooks});
     },
     getBooksByGenres(req, res){

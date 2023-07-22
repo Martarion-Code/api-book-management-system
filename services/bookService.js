@@ -3,9 +3,9 @@ const book = require('../database/book')
 
 
 module.exports = {
-    getAllBooks(){
+    async getAllBooks(){
         // return Book.findAll();
-        const allBooks = book.getAllBooks();
+        const allBooks = await book.getAllBooks();
         return allBooks;
     },
 

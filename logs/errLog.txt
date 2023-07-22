@@ -2,3 +2,16 @@
 20230722	09:04:32	d47bb6d1-73cc-4107-bb56-3875c5788851	ReferenceError: send is not defined
 20230722	11:14:49	0823eaba-0990-481b-bb3e-ba084ef414f3	Error: ENOENT: no such file or directory, stat 'D:\Learn Javascript\Learn Node.js\node-api-book-system-management\views\404.html'
 20230722	11:15:10	f72babc4-540f-476a-9ddf-d81bc8ad0ecb	Error: ENOENT: no such file or directory, stat 'D:\Learn Javascript\Learn Node.js\node-api-book-system-management\views\404.html'
+20230722	13:09:15	68e869b1-d59a-4ddc-8049-66541d21b3e7	Error: ENOENT: no such file or directory, stat 'D:\Learn Javascript\Learn Node.js\node-api-book-system-management\views\404.html'
+20230722	13:11:43	c81eb8dc-54ee-4f16-8513-c61740c7ae8a	Error: ENOENT: no such file or directory, stat 'D:\Learn Javascript\Learn Node.js\node-api-book-system-management\views\404.html'
+20230722	13:11:52	67211d3b-f7d3-4636-bcfd-0215490ea257	Error: ENOENT: no such file or directory, stat 'D:\Learn Javascript\Learn Node.js\node-api-book-system-management\views\404.html'
+20230722	13:12:40	bb90c1ce-1848-4fab-ad01-161f8956f5e5	TypeError: res.sendStaus is not a function
+20230722	13:12:44	ee844032-d2f1-4ff1-8e1b-0af2b312552c	TypeError: res.sendStaus is not a function
+20230722	13:14:07	8d2fb0a3-c48c-4350-9c63-0807d0dee2d0	Error: ENOENT: no such file or directory, stat 'D:\Learn Javascript\Learn Node.js\node-api-book-system-management\views\404.html'
+20230722	13:15:18	4721acaa-0fcf-4201-8c5b-441cb18576a5	TypeError: authHeader?.starsWith is not a function
+20230722	13:15:39	d15b13c3-d2b0-40e0-b136-9d24d2e0778f	TypeError: authHeader?.startWith is not a function
+20230722	13:15:59	ff20340f-acc5-4c23-baae-660be54d43bb	TypeError: authHeader?.startWith is not a function
+20230722	13:18:02	f5a96b01-399c-4ada-bb2f-f80960b0df03	TypeError: authHeader?.startWith is not a function
+20230722	13:18:21	c9a901cc-51db-42f6-8fb0-da59fa0cb211	TypeError: authHeader?.startWith is not a function
+20230722	13:19:32	217a0370-f1ee-42b2-ab01-365d56b167e4	ReferenceError: jwt is not defined
+20230722	13:41:09	18e26c85-4b5e-4055-bfd5-81aef1843a17	TypeError: allBooks.json is not a function

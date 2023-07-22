@@ -19,6 +19,10 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Genre.init({
+    id: {
+      type: DataTypes.INTEGER,
+      primaryKey: true
+    },
     name: DataTypes.STRING
   }, {
     sequelize,
