@@ -1,4 +1,6 @@
 const Book = require("../models").Book;
+const Genre = require("../models").Genre;
+
 
 module.exports = {
   async getAllBooks() {
@@ -6,10 +8,29 @@ module.exports = {
     return allBooks; 
   },
   async  getBooksByGenre(genres){
-    await Book.findAll({
+    const selectedGenres = await Genre.findAll({
       where:{
         name: genres
       }
     })
+
+    const selectedGenreIds = selectedGenres.map(genre => genre.id);
+
+    const booksByGenres = await Book.findAll({
+      include: [
+        {
+          model: Genre,
+          where: {
+            id:selectedGenreIds,
+          },
+          through: {
+            attributes: []
+          },
+        },
+      ],
+    });
+
+    return  booksByGenres;
   }
+
   };
