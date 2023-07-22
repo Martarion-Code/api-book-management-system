@@ -1,0 +1,13 @@
+# Ignore log files
+*.log
+
+# Ignore configuration files with sensitive information
+.env
+
+# Ignore temporary files
+.tmp
+temp/
+.cache/
+
+# Ignore node_modules (for Node.js projects)
+node_modules/

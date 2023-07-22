@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "maba",
+    "password": "maba",
+    "database": "api_book_system_management",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "maba",
+    "password": "maba",
+    "database": "api_book_system_management",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "maba",
+    "password": "maba",
+    "database": "api_book_system_management",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
