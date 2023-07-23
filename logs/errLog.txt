@@ -15,3 +15,27 @@
 20230722	13:18:21	c9a901cc-51db-42f6-8fb0-da59fa0cb211	TypeError: authHeader?.startWith is not a function
 20230722	13:19:32	217a0370-f1ee-42b2-ab01-365d56b167e4	ReferenceError: jwt is not defined
 20230722	13:41:09	18e26c85-4b5e-4055-bfd5-81aef1843a17	TypeError: allBooks.json is not a function
+20230723	10:18:02	14dd6af7-fefb-4b8b-9a16-035b219f5da9	Error: Not allowed by CORS
+20230723	10:18:10	d7f58002-9987-47f6-a9b8-ce50c16b3dd9	Error: Not allowed by CORS
+20230723	10:18:49	412132bb-d9d4-4a0e-8d5c-a8ed7618ae3a	Error: Not allowed by CORS
+20230723	10:18:53	d9293306-4f31-4518-b70a-7366b13dc5c4	Error: Not allowed by CORS
+20230723	10:19:45	5e8ba6d7-98a7-48b9-b6c8-d9dbbc7ef680	Error: Not allowed by CORS
+20230723	10:27:08	4a46dbb2-f93c-43b4-a557-46d0aca26f3f	Error: Not allowed by CORS
+20230723	10:27:09	e370c43f-0318-4e78-bb21-e13d2f1cbb6c	Error: Not allowed by CORS
+20230723	10:27:10	3bb91f13-d6d0-422a-b9b1-7f2f12bb1987	Error: Not allowed by CORS
+20230723	10:27:10	f8c614b2-6e3e-4115-8395-659bed13f81a	Error: Not allowed by CORS
+20230723	10:27:10	3e645f36-303a-4b6c-a354-46f1bd62a454	Error: Not allowed by CORS
+20230723	10:27:10	084cf059-2d30-42c4-8604-5d6fd29ece29	Error: Not allowed by CORS
+20230723	10:27:10	75fca710-a6d3-4722-80e4-7b5f4407f81c	Error: Not allowed by CORS
+20230723	10:28:26	de701cb3-a2c7-4aa7-a5f8-a4c72be51c09	Error: Not allowed by CORS
+20230723	10:43:09	87bd3068-ff6c-4732-acdb-53717fc6e78d	TypeError: Cannot read properties of undefined (reading 'origin')
+20230723	10:43:09	428d0331-1667-473d-8780-01b810758493	TypeError: Cannot read properties of undefined (reading 'origin')
+20230723	10:43:19	49cf5882-a79a-4c6d-a772-abea3c24e7b1	TypeError: Cannot read properties of undefined (reading 'origin')
+20230723	10:44:30	96a25906-9f60-44c7-8f2e-253e1587b2c9	TypeError: Cannot read properties of undefined (reading 'origin')
+20230723	10:44:35	7ea8389f-456e-4fd8-9e14-38d145437a3b	TypeError: Cannot read properties of undefined (reading 'origin')
+20230723	10:45:55	163fa4fd-1038-4226-af9b-1fbafe1eeaa7	TypeError: res.headers is not a function
+20230723	11:38:46	85260e06-fe0d-45c9-99f4-3301a20589ba	Error: ENOENT: no such file or directory, stat 'D:\Learn Javascript\Learn Node.js\node-api-book-system-management\views\404.html'
+20230723	11:39:42	4bb7c638-7e33-43ef-a495-29552440eace	Error: ENOENT: no such file or directory, stat 'D:\Learn Javascript\Learn Node.js\node-api-book-system-management\views\404.html'
+20230723	11:39:47	ab0cd128-1777-4046-a813-c06997837dd4	Error: ENOENT: no such file or directory, stat 'D:\Learn Javascript\Learn Node.js\node-api-book-system-management\views\404.html'
+20230723	11:39:58	88e59f0d-6d3d-46e4-beb3-e8345df5abc5	Error: ENOENT: no such file or directory, stat 'D:\Learn Javascript\Learn Node.js\node-api-book-system-management\views\404.html'
+20230723	11:40:06	9ac0afdb-e091-4c93-8e31-1f5599ab8b6b	Error: ENOENT: no such file or directory, stat 'D:\Learn Javascript\Learn Node.js\node-api-book-system-management\views\404.html'

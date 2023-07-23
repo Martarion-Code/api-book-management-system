@@ -1,5 +1,8 @@
 require('dotenv').config();
 const express = require('express');
+const credentials = require('./middleware/credentials');
+
+
 const app = express();
 const path = require('path')
 const cors = require('cors');
@@ -16,18 +19,23 @@ const PORT = process.env.PORT || 3500;
 // custom middleware logger
 app.use(logger);
 
+app.use(cookieParser());
+//check before cors
+app.use(credentials);
 
 // Cross Origin Resource Sharing
 app.use(cors(corsOptions));
 
 //built in middleware to handle urlencoded form data
-app.use(express.urlencoded({extender:false}));
-app.use(cookieParser());
+app.use(express.urlencoded({extended:false}));
 // built-in middleware for json 
 app.use(express.json());
 
 app.use('/v1/login', require('./v1/routes/authRoutes'));
 app.use('/v1/register', require('./v1/routes/registerRoutes'));
+app.use('/v1/refresh', require('./v1/routes/refreshTokenRoutes'));
+app.use('/v1/roles', require('./v1/routes/roleRoutes'));
+
 app.use(verifyJWT);
 app.use('/v1/books', require('./v1/routes/bookRoutes'))
 app.all('*', (req, res) =>{
